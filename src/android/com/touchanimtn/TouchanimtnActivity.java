@@ -32,7 +32,8 @@ public class TouchanimtnActivity extends Activity {
 			// TODO Auto-generated constructor stub
 			mBitmap = BitmapFactory.decodeResource(getResources(),R.drawable.ic_launcher);
 			getHolder().addCallback(this);
-			mthread = new TutorialThread(this);
+		//	mthread = new TutorialThread(this);
+			mthread = new Tutorialhread(this);
 		}
 		
 		
