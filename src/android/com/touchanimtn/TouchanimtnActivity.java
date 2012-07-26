@@ -33,7 +33,7 @@ public class TouchanimtnActivity extends Activity {
 			mBitmap = BitmapFactory.decodeResource(getResources(),R.drawable.ic_launcher);
 			getHolder().addCallback(this);
 			mthread = new TutorialThread(this);
-	//		mthread = new Tutorialhread(this);
+//			mthread = new Tutorialhread(this);
 		}
 		
 		
